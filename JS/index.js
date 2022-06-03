@@ -11,7 +11,16 @@ console.log(typeof myname);
 
 
 //Define a function `getVowelCount()`
-
+function getVowelCount(str) {
+    let vowelcount = 0
+    const vowels = ['a','e','i','o','u','y']
+    for (let char of str) {
+        if (vowels.includes(char)) {
+            vowelcount++
+        }
+    }
+    return vowelcount
+}
 
 
 
