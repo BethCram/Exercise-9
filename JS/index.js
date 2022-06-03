@@ -1,9 +1,11 @@
 //Log out a message to show you've got JavaScript running
-console.log("Script is running!")
+console.log("Script is running!");
 
 
 
 //Define a variable `myName` and log it out
+let myname = 'Beth';
+console.log(typeof myname);
 
 
 
