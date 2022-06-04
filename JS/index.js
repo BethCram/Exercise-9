@@ -5,16 +5,16 @@ console.log("Script is running!");
 
 //Define a variable `myName` and log it out
 let myname = 'Beth';
-console.log(typeof myname);
+console.log(myname);
 
 
 
 
 //Define a function `getVowelCount()`
-function getVowelCount(str) {
+function getVowelCount(aString) {
     let vowelcount = 0
     const vowels = ['a','e','i','o','u','y']
-    for (let char of str) {
+    for (let char of aString) {
         if (vowels.includes(char)) {
             vowelcount++
         }
