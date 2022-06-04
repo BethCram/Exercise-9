@@ -33,9 +33,9 @@ console.log(numVowelsInName)
 //Create a variable `h1Elememt` that refers to the `<h1>` element in the DOM.
 //Then change the text of that element
 
-let h1Elemt= $("h1")
-console.log(h1Elemt)
-h1Elemt.text("Interactive Pet Viewer")
+let h1Element= $("h1")
+console.log(h1Element)
+h1Element.text("Interactive Pet Viewer")
 
 
 
