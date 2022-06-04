@@ -25,7 +25,8 @@ function getVowelCount(str) {
 
 
 //Define a variable `numVowelsInName` and log it out
-
+let numVowelsInName=getVowelCount(myname);
+console.log(numVowelsInName)
 
 
 
