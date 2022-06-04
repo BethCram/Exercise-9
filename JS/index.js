@@ -32,20 +32,23 @@ console.log(numVowelsInName)
 
 //Create a variable `h1Elememt` that refers to the `<h1>` element in the DOM.
 //Then change the text of that element
+var h1Element = $("h1");
+console.log(h1Element);
+h1Element.text("Interactive Pet Viewer");
 
 
 
 
 //Create a variable `footerElement` that refers to the `<footer>`, then
 //change the HTML content of that element
-
-
+footerElement.html("<small>All images from <a href=‘https://unsplash.com/'>unsplash.com</a></small>")
 
 
 //Change the CSS `display` property of the `#cats` element
 //Add the `active` class to the `#btnShowDogs` element
 
-
+$("#cats").css("display","none");
+$("btnShowDogs").css("active");
 
 
 //Add an event listener to the buttons to respond to click events.
