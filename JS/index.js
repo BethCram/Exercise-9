@@ -32,7 +32,7 @@ console.log(numVowelsInName)
 
 //Create a variable `h1Elememt` that refers to the `<h1>` element in the DOM.
 //Then change the text of that element
-var h1Element = $ ("h1")
+var h1Element = $ ("<h1>")
 console.log(h1Element);
 h1Element.text("Interactive Pet Viewer");
 
