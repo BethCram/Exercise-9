@@ -26,24 +26,25 @@ function getVowelCount(aString) {
 
 //Define a variable `numVowelsInName` and log it out
 let numVowelsInName=getVowelCount(myname);
-console.log(numVowelsInName)
+console.log(numVowelsInName);
 
 
 
 //Create a variable `h1Elememt` that refers to the `<h1>` element in the DOM.
 //Then change the text of that element
 
-let h1Element= $("h1")
-console.log(h1Element)
-h1Element.text("Interactive Pet Viewer")
+let h1Element= $("h1");
+console.log(h1Element);
+h1Element.text("Interactive Pet Viewer");
 
 
 
 
 //Create a variable `footerElement` that refers to the `<footer>`, then
 //change the HTML content of that element
-let footerElement = $("footer")
-footerElement.html("<small>All images from <a href=‘https://unsplash.com/'>unsplash.com</a></small>")
+let footerElement = ("footer");
+console.log(footer);
+footer.html('<small>All images from <a href="https://unsplash.com/">unsplash.com</a></small>');
 
 
 //Change the CSS `display` property of the `#cats` element
@@ -57,12 +58,15 @@ $("btnShowDogs").addClass("active");
 //The listener's function will toggle the `#dogs` and `#cats` divs,
 //and toggle which button has the `active` class
 
-
+$('.btn-group').on('click', function(event)) {
+    $('#dogs, #cats').toggle("fast");
+    $('#btnShowDogs, #btnShowCats').toggleClass('active');
+}
 
 
 //Change the `cursor` CSS property of the images
 
-
+$('img').css("curser", "pointer");
 
 
 //Add the `data-bs-toggle` and `data-bs-target` attributes to the images
