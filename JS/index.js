@@ -43,7 +43,7 @@ h1Element.text("Interactive Pet Viewer");
 //change the HTML content of that element
 let footerElement = ('$footer');
 console.log(footer);
-footer.html('<small>All images from <a href="https://unsplash.com/">unsplash.com</a></small>');
+footer.html("<small>All images from <a href='https://unsplash.com/'>unsplash.com</a></small>");
 
 
 //Change the CSS `display` property of the `#cats` element
