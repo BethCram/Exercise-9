@@ -58,15 +58,14 @@ $("btnShowDogs").addClass("active");
 //The listener's function will toggle the `#dogs` and `#cats` divs,
 //and toggle which button has the `active` class
 
-$('.btn-group').on("click", function(event) {
+$('.btn-group').on('click', function (event) {
     $('#dogs, #cats').toggle("fast");
     $('#btnShowDogs, #btnShowCats').toggleClass('active');
-}
+});
 
 
 //Change the `cursor` CSS property of the images
-
-$('img').css("curser", "pointer");
+$('img').css("curser","pointer");
 
 
 //Add the `data-bs-toggle` and `data-bs-target` attributes to the images
