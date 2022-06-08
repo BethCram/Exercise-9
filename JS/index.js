@@ -69,7 +69,10 @@ $('img').css("curser","pointer");
 
 //Add the `data-bs-toggle` and `data-bs-target` attributes to the images
 
-
+$("#dogs").attr('data-bs-toggle='modal', '');
+$("#dogs").attr('data-bs-target','');
+$('#cats').attr('data-bs-toggle='modal','');
+$('#cats').attr('data-bs-target','');
 
 
 //Ad an event listener to the modal for `show.bs.modal` events.
